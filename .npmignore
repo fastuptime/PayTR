@@ -1,0 +1,17 @@
+examples/
+tests/
+.git/
+.github/
+.gitignore
+.npmrc
+.eslintrc
+.eslintignore
+.prettierrc
+.prettierignore
+.editorconfig
+.env
+.env.example
+coverage/
+*.log
+*.tgz
+.DS_Store

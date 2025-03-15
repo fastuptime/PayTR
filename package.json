@@ -1,0 +1,42 @@
+{
+  "name": "paytr-node",
+  "version": "1.0.0",
+  "description": "Node.js integration for PayTR payment gateway",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "mocha tests/**/*.test.js",
+    "lint": "eslint ."
+  },
+  "author": "FastUptime (https://github.com/fastuptime)",
+  "license": "MIT",
+  "keywords": [
+    "payment",
+    "paytr",
+    "gateway",
+    "ecommerce",
+    "turkey",
+    "credit-card",
+    "iframe",
+    "direct-api",
+    "link-api"
+  ],
+  "dependencies": {
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0",
+    "eslint": "^8.42.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fastuptime/PayTR.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fastuptime/PayTR/issues"
+  },
+  "homepage": "https://github.com/fastuptime/PayTR#readme"
+}
